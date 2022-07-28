@@ -5,6 +5,9 @@ from os import path
 pygame.init()
 pygame.mixer.init()
 font = pygame.font.SysFont('Times New Roman', 30)
+pygame.mixer.music.load('fonovaja_muzika.ogg')
+pygame.mixer.music.play()
+
 
 blue = (0, 0, 255)
 black = (0, 0, 0)
